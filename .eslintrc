@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "modules": true
+  },
+	"env": {
+		"node": true,
+		"mocha": true
+	},
+	"rules": {
+		"quotes": [2, "single"],
+		"semi": [2, "never"],
+		"curly": [2, "multi-line"],
+		"no-underscore-dangle": 0
+	}
+}

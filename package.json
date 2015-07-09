@@ -1,0 +1,31 @@
+{
+  "name": "create-action-types",
+  "version": "0.1.0",
+  "description": "My module",
+  "license": "MIT",
+  "repository": "chentsulin/create-action-types",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": {
+    "name": "C.T. Lin",
+    "email": "chentsulin@gmail.com",
+    "url": "github.com/chentsulin/create-action-types"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "object-assign": "^3.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.14",
+    "mocha": "*"
+  }
+}

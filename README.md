@@ -5,7 +5,7 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Dependency Status][david_img]][david_site]
 
-> create flux action types util
+> create flux ActionTypes less verbose
 
 
 ## Install

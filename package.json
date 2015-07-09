@@ -1,10 +1,14 @@
 {
   "name": "create-action-types",
   "version": "0.1.0",
-  "description": "My module",
+  "description": "create flux ActionTypes less verbose",
   "license": "MIT",
   "repository": "chentsulin/create-action-types",
   "scripts": {
+    "build": "npm run lint && babel src --out-dir lib",
+    "clean": "rimraf ./lib",
+    "lint": "eslint src",
+    "prepublish": "npm run clean && npm run build",
     "test": "mocha"
   },
   "author": {
@@ -16,16 +20,25 @@
     "node": ">=0.10.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "lib/create-action-types.js"
   ],
   "keywords": [
-    ""
+    "flux",
+    "action",
+    "types",
+    "action_types",
+    "action-types"
   ],
   "dependencies": {
     "object-assign": "^3.0.0"
   },
   "devDependencies": {
+    "babel": "^5.6.14",
+    "babel-eslint": "^3.1.23",
+    "eslint": "^0.24.0",
     "istanbul": "^0.3.14",
-    "mocha": "*"
+    "mocha": "*",
+    "rimraf": "^2.4.1"
   }
 }

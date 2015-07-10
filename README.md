@@ -36,7 +36,7 @@ export default create([
 
 is more clear than:
 
-```
+```js
 import keyMirror from 'keymirror'
 
 export default keyMirror({

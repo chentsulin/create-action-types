@@ -26,6 +26,25 @@ export default create([
 
   // ..other action types
 ])
+
+// =>
+// {
+//   INCREMENT\_COUNTER: 'INCREMENT\_COUNTER',
+//   DECREMENT\_COUNTER: 'DECREMENT\_COUNTER'
+// }
+```
+
+is more clear than:
+
+```
+import keyMirror from 'keymirror'
+
+export default keyMirror({
+  INCREMENT_COUNTER: null,
+  DECREMENT_COUNTER: null,
+
+  // ..other action types
+})
 ```
 
 ## License

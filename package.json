@@ -1,6 +1,6 @@
 {
   "name": "create-action-types",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "create flux ActionTypes less verbose",
   "license": "MIT",
   "repository": "chentsulin/create-action-types",

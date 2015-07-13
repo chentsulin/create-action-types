@@ -18,14 +18,14 @@ $ npm install --save create-action-types
 ## Usage
 
 ```js
-import create from 'create-action-types'
+import create from 'create-action-types';
 
 export default create([
   'INCREMENT_COUNTER',
   'DECREMENT_COUNTER',
 
   // ..other action types
-])
+]);
 
 // =>
 // {
@@ -37,14 +37,14 @@ export default create([
 is more clear than:
 
 ```js
-import keyMirror from 'keymirror'
+import keyMirror from 'keymirror';
 
 export default keyMirror({
   INCREMENT_COUNTER: null,
   DECREMENT_COUNTER: null,
 
   // ..other action types
-})
+});
 ```
 
 ## License

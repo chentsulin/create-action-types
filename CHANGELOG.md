@@ -1,10 +1,5 @@
-# 0.1.0 (2015/x/x)
+# 1.0.0 (2015/7/13)
 
 #### Features
 
-- **A:**
-- **B:**
-
-#### Bug Fixed
-
-- **C:**
+- **create-action-types.js:** follow airbnb style eslint.

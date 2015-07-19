@@ -9,8 +9,8 @@
     "clean": "rimraf ./lib",
     "lint": "eslint src",
     "prepublish": "npm run clean && npm run build",
-    "test": "mocha",
-    "test-travis": "npm run build && node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot"
+    "test": "mocha --compilers js:babel/register --recursive",
+    "test-travis": "npm run build && node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --compilers js:babel/register --recursive --reporter dot"
   },
   "author": {
     "name": "C.T. Lin",

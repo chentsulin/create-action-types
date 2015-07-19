@@ -4,6 +4,7 @@
 
 - **es6 fat arrow syntax**
 - **eslint config**
+- **test with babel**
 
 
 # 1.0.0 (2015/7/13)

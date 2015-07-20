@@ -1,8 +1,7 @@
-import assign from 'object-assign';
-
 
 export default function(types) {
-  return types
-    .map(type => ({ [type]: type }))
-    .reduce((prev, curr) => assign(prev, curr));
+  return types.reduce((result, key) => {
+    result[key] = key;
+    return result;
+  }, {});
 }

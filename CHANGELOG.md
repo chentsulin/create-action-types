@@ -1,3 +1,10 @@
+# 1.0.2 (2015/7/20)
+
+#### Improves
+
+- **remove 3rd party lib**
+
+
 # 1.0.1 (2015/7/20)
 
 #### Improves

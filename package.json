@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "create flux ActionTypes less verbose",
   "license": "MIT",
+  "main": "lib/create-action-types",
   "repository": "chentsulin/create-action-types",
   "scripts": {
     "build": "npm run lint && babel src --out-dir lib",
@@ -40,5 +41,8 @@
     "istanbul": "^0.3.14",
     "mocha": "*",
     "rimraf": "^2.4.3"
+  },
+  "dependencies": {
+    "invariant": "^2.1.1"
   }
 }

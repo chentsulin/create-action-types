@@ -11,7 +11,7 @@
     "lint": "eslint src",
     "prepublish": "npm run clean && npm run build",
     "test": "mocha --compilers js:babel/register --recursive",
-    "test-travis": "npm run build && node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --compilers js:babel/register --recursive --reporter dot"
+    "test-travis": "npm run build && node node_modules/.bin/isparta cover ./node_modules/.bin/_mocha --report lcovonly -- --compilers js:babel/register --recursive --reporter dot"
   },
   "author": {
     "name": "C.T. Lin",
@@ -38,7 +38,6 @@
     "eslint": "^1.5.1",
     "eslint-config-airbnb": "0.0.8",
     "isparta": "^3.0.4",
-    "istanbul": "^0.3.14",
     "mocha": "*",
     "rimraf": "^2.4.3"
   },

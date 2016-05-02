@@ -20,7 +20,7 @@ it('should throw when action type has been declared twice', () => {
   } catch (e) {
     assert.equal(
       e.message,
-      'Invariant Violation: action type `INCREMENT_COUNTER` has been declared. Should not declare a constant twice.'
+      'action type `INCREMENT_COUNTER` has been declared. Should not declare a constant twice.'
     );
   }
 });
